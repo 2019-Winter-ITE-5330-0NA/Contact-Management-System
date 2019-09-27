@@ -1,0 +1,16 @@
+CREATE SCHEMA `asn5-kim` ;
+
+CREATE TABLE `asn5-kim`.`contacts` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NULL,
+  `email` VARCHAR(45) NULL,
+  `age` INT NULL,
+  `phone` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`));
+  
+INSERT INTO `as5-kim`.friends(friendName,emailAddress,age,favouriteColor)
+VALUES('Jared','Jared@gmail.com',23,'Blue');
+
+INSERT INTO `as5-kim`.friends(friendName,emailAddress,age,favouriteColor)
+VALUES('Josephine','Jose@gmail.com',25,'Red');
+  
