@@ -1,11 +1,11 @@
 CREATE SCHEMA `asn5-kim` ;
 
-CREATE TABLE `asn5-kim`.`contacts` (
+CREATE TABLE `asn5-kim`.`friends` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(45) NULL,
-  `email` VARCHAR(45) NULL,
+  `friendName` VARCHAR(45) NULL,
+  `emailAddress` VARCHAR(45) NULL,
   `age` INT NULL,
-  `phone` VARCHAR(45) NULL,
+  `favouriteColor` VARCHAR(45) NULL,
   PRIMARY KEY (`id`));
   
 INSERT INTO `as5-kim`.friends(friendName,emailAddress,age,favouriteColor)
